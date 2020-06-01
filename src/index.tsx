@@ -66,6 +66,7 @@ class LinearAnimatedGradientTransition extends Component<
       toValue: 1,
       duration: 500,
       easing: Easing.linear,
+      useNativeDriver: true,
     },
   };
 
@@ -135,6 +136,7 @@ class LinearAnimatedGradientTransition extends Component<
             toValue: animation.toValue,
             duration: animation.duration,
             easing: animation.easing,
+            useNativeDriver: animation.useNativeDriver,
           });
         })
       ).start();
