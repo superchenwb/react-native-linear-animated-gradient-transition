@@ -27,7 +27,7 @@ yarn example android
 To run the example app on iOS:
 
 ```sh
-yarn example android
+yarn example ios
 ```
 
 Make sure your code passes TypeScript and ESLint. Run the following to verify:
@@ -48,6 +48,10 @@ Remember to add tests for your change if possible. Run the unit tests by:
 ```sh
 yarn test
 ```
+
+To edit the Objective-C files, open `example/ios/LinearAnimatedGradientTransitionExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-linear-animated-gradient-transition`.
+
+To edit the Kotlin files, open `example/android` in Android studio and find the source files at `reactnativelinearanimatedgradienttransition` under `Android`.
 
 ### Commit message convention
 

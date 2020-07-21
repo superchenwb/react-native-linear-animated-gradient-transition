@@ -1,4 +1,4 @@
-package com.LinearAnimatedGradientTransitionExample;
+package com.example.reactnativelinearanimatedgradienttransition;
 
 import com.facebook.react.ReactActivity;
 
