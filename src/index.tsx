@@ -142,8 +142,9 @@ class AnimatedGradientTransition extends Component<IProps, IState> {
     const { children, ...props } = this.props;
     const interpolatedColors = this._getInterpolatedColors();
     const animatedColorsProps = this._generateColorsProps(interpolatedColors);
+    const otherProps = _.omit(props, 'animation');
     return (
-      <AnimatedLinearGradient {...props} {...animatedColorsProps}>
+      <AnimatedLinearGradient {...otherProps} {...animatedColorsProps}>
         <>{children}</>
       </AnimatedLinearGradient>
     );

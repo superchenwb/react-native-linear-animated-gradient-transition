@@ -42,4 +42,4 @@ class LinearGradient extends Component<IProps> {
   }
 }
 
-export default Animated.createAnimatedComponent(LinearGradient);
+export default Animated.createAnimatedComponent(LinearGradient) as any;
