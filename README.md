@@ -1,6 +1,10 @@
 # react-native-linear-animated-gradient-transition
 
-react-native-linear-animated-gradient-tra
+`<LinearAnimatedGradientTransition>` component for react-native.
+The component draws a linear gradient and does the transition animation automatically when the `colors` prop is changed.
+
+This component uses [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+and is based on their [example](https://github.com/react-native-community/react-native-linear-gradient/tree/master/Examples/AnimatedGradientTransition).
 
 ## Installation
 
